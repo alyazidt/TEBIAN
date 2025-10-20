@@ -4,10 +4,10 @@ import './Sidebar.css'
 function Sidebar() {
   const menuItems = [
     { icon: '🏠', text: 'الرئيسية', active: false },
-    { icon: '📧', text: 'الرسائل', active: false },
-    { icon: '📚', text: 'المواد العلمية', active: false },
-    { icon: '🎮', text: 'التحدي', active: false },
-    { icon: '🧠', text: 'المهارات', active: false },
+    { icon: '📧', text: 'الدردشة', active: false },
+    { icon: '📚', text: 'المنهج الدراسي', active: false },
+    { icon: '🎮', text: 'التحديات', active: false },
+    { icon: '🧠', text: 'تنمية المهارات', active: false },
     { icon: '⚙️', text: 'الإعدادات', active: false }
   ]
 

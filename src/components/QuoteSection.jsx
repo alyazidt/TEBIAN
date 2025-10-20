@@ -1,5 +1,5 @@
-import React from 'react'
-import './QuoteSection.css'
+import React from "react";
+import "./QuoteSection.css";
 
 function QuoteSection() {
   return (
@@ -10,17 +10,8 @@ function QuoteSection() {
         </blockquote>
         <cite className="quote-author">- مالكوم إكس</cite>
       </div>
-      
-      <div className="additional-sections">
-        <div className="section-item">
-          <span>النشوء والارتقاء</span>
-        </div>
-        <div className="section-item">
-          <span>مركز المساعدة</span>
-        </div>
-      </div>
     </div>
-  )
+  );
 }
 
-export default QuoteSection
+export default QuoteSection;

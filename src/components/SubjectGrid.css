@@ -1,0 +1,32 @@
+.subject-section {
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .subject-section {
+    margin-top: 32px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .subject-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
